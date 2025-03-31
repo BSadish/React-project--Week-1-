@@ -7,7 +7,7 @@ const Childc = () => {
 const {theme,setTheme} = useContext(ThemeContext);
 
 function handleclick(){
-if(theme=='light')
+if(theme==='light')
 
     setTheme('dark')
     // console.log("dark")

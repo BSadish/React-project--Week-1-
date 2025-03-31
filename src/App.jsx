@@ -19,7 +19,7 @@ const App = () => {
      
 
 <ThemeContext.Provider value={{theme,setTheme}}>
-  <div className={`h-100 w-100 border-2 border-black flex justify-center flex-col items-center m-10 bg-amber-200 ${theme==='light'?'bg-beign':'bg-black'}`}>
+  <div className={`h-100 w-100 border-2 border-black flex justify-center flex-col items-center m-10 bg-amber-200 ${theme==='light'?'bg-gray-100':'bg-black'}`}>
     <ChildA/>
   </div>
   
